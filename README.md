@@ -6,7 +6,7 @@ Hi, I'm Souhardya. I'm an ECE graduate from NIT Durgapur interested in digital h
 
 I'm looking for entry-level opportunities in **Digital VLSI, RTL Design, Design Verification and FPGA / semiconductor hardware engineering**.
 
-📧 souhardya2005aps@gmail.com · 💼 [LinkedIn](https://www.linkedin.com/in/souhardya-majumder-431231251/) · 📍 New Delhi, India
+📧 souhardya2005aps@gmail.com · 📞 +91 91631 50238 · 💼 [LinkedIn](https://www.linkedin.com/in/souhardya-majumder-431231251/) · 📍 New Delhi, India
 
 ---
 
@@ -38,12 +38,13 @@ I'm looking for entry-level opportunities in **Digital VLSI, RTL Design, Design 
 
 ## 🚀 Projects
 
-| # | Project | Context | Repository |
-|---|---|---|---|
-| 1 | FPGA-based Time-to-Digital Converter for Single-Photon OTDR | C-DOT (Govt. of India) Internship, Delhi · May–Jul 2025 | [OTDR-TDC-RTL](https://github.com/SMajumder2005/OTDR-TDC-RTL) |
-| 2 | APB–AHB Bridge using Verilog | Maven Silicon Internship · May–Jun 2024 | _To be added_ |
-| 3 | RISC-V Processor in Verilog | Self-paced course project | [RISC-V-Verilog](https://github.com/SMajumder2005/RISC-V-Verilog) |
-| 4 | AI-inspired Traffic Signal Controller (Verilog HDL & FSM) | ElevanceSkills online project | _To be added_ ([project page](https://www.elevanceskills.com/projects/ai-based-traffic-signal-controller-using-vlsi)) |
+| # | Project | Context | Report | Repository |
+|---|---|---|---|---|
+| 1 | FPGA-based Time-to-Digital Converter for Single-Photon OTDR | C-DOT (Govt. of India) Internship · May–Jul 2025 | [PDF](https://tinyurl.com/53fhrkma) | [OTDR-TDC-RTL](https://github.com/SMajumder2005/OTDR-TDC-RTL) |
+| 2 | APB–AHB Bridge using Verilog | Maven Silicon Internship · May–Jun 2024 | [PDF](https://tinyurl.com/4rjvfd3u) | _To be added_ |
+| 3 | Drone Routing Optimization for IoT Networks | B.Tech Final Year Project · Aug 2025–Apr 2026 | [PDF](https://tinyurl.com/2zn3wuva) | _To be added_ |
+| 4 | RISC-V Processor in Verilog | Online self-paced course | [PDF](https://tinyurl.com/mr7kvnta) | [RISC-V-Verilog](https://github.com/SMajumder2005/RISC-V-Verilog) |
+| 5 | AI-inspired Traffic Signal Controller (Verilog HDL & FSM) | ElevanceSkills online project | [Project page](https://www.elevanceskills.com/projects/ai-based-traffic-signal-controller-using-vlsi) | _To be added_ |
 
 ### 1. FPGA-Based Time-to-Digital Converter for Single-Photon OTDR
 **C-DOT (Govt. of India) Internship, Delhi | May–July 2025** · FPGA Design · RTL Development · Digital Measurement
@@ -56,7 +57,7 @@ Designed and implemented a Time-to-Digital Converter (TDC) on FPGA for photon-le
 - Performed functional verification of FPGA modules through simulation and hardware testing
 - Gained experience in RTL verification, timing-analysis concepts and hardware debugging
 
-🔗 **Repository:** [OTDR-TDC-RTL](https://github.com/SMajumder2005/OTDR-TDC-RTL)
+🔗 [Project report (PDF)](https://tinyurl.com/53fhrkma) · [Repository: OTDR-TDC-RTL](https://github.com/SMajumder2005/OTDR-TDC-RTL) · [Internship certificate](https://tinyurl.com/2e7fvfdt)
 
 ---
 
@@ -69,66 +70,73 @@ Designed and implemented an AMBA-compliant APB–AHB bridge enabling communicati
 - Verified correct data transfer using Verilog testbenches
 - Gained hands-on exposure to the VLSI design and verification flow: RTL design, simulation and debugging
 
-🔗 **Repository:** _To be added once the source is ready to share._
+🔗 [Project report (PDF)](https://tinyurl.com/4rjvfd3u) · [Internship certificate](https://tinyurl.com/d7au9n2n) · Repository: _to be added once the source is ready to share._
 
 ---
 
-### 3. RISC-V Processor in Verilog
-**Self-paced course project** · Digital Design · Processor Architecture · RTL Simulation
+### 3. Drone Routing Optimization for IoT Networks
+**B.Tech Final Year Project | August 2025 – April 2026** · Optimization · Algorithms · Energy-Aware Routing
 
-A modular RISC-V processor core in Verilog HDL covering fetch, decode, execute and write-back, built to understand pipelining and control-logic concepts.
+An optimization framework for UAV routing using the Travelling Salesman Problem (TSP) and Greedy algorithms.
 
-**Repository contents:**
+- Modelled energy consumption using a velocity-dependent power model and an energy-aware cost matrix
+- Used λ-based multi-objective optimization to balance energy efficiency and IoT node coverage
+- Evaluated algorithmic performance and explored hardware-friendly implementation possibilities
 
-| Module | Purpose |
-|---|---|
-| `instruction_fetch_unit.v` | Program counter and branch/jump flow |
-| `INSTRUCTION_MEMORY.v` | Predefined instruction sequence |
-| `control_unit.v` | Instruction decoding and control-signal generation |
-| `register_file.v` | Register bank and access logic |
-| `imm_gen.v` | Immediate extraction |
-| `alu.v` | Arithmetic, logic, shift and comparison operations |
-| `data_memory.v` | Load/store data storage |
-| `data_path.v` | Connects register file, ALU, data memory and branch logic |
-| `top_riscv.v` | Top-level integration |
-| `top_tb.v` | Testbench (clock and reset generation) |
-
-**Instructions exercised in the source:** R-type (ADD, SUB, SLL, XOR, SRL, SRA, OR, AND), I-type (ADDI, SLLI, SLTI, SRLI, ORI, ANDI), load/store, branches (BEQ, BNE, BGE), LUI and JAL.
-
-**To simulate (Xilinx Vivado):** add the `.v` files as design sources, add `top_tb.v` as the simulation source, set `top_tb` as the top module and run behavioural simulation.
-
-🔗 **Repository:** [RISC-V-Verilog](https://github.com/SMajumder2005/RISC-V-Verilog)
+🔗 [Project report (PDF)](https://tinyurl.com/2zn3wuva)
 
 ---
 
-### 4. AI-inspired Traffic Signal Controller using Verilog HDL and FSM
+### 4. RISC-V Processor in Verilog
+**Online self-paced course project** · Digital Design · Processor Architecture · RTL Simulation
+
+A modular RISC-V processor core in Verilog covering fetch, decode, execute and write-back, with ALU, control unit, register file, datapath and a simulation testbench. Supports R-type, I-type, load/store, branch (BEQ, BNE, BGE), LUI and JAL instructions.
+
+🔗 [Repository: RISC-V-Verilog](https://github.com/SMajumder2005/RISC-V-Verilog) · [Project report (PDF)](https://tinyurl.com/mr7kvnta)
+
+---
+
+### 5. AI-inspired Traffic Signal Controller using Verilog HDL and FSM
 **ElevanceSkills online project** · Digital Design · Finite State Machines · RTL Simulation
 
 Designed an AI-inspired traffic signal controller in Verilog HDL using Finite State Machines, with state-transition and signal-timing logic verified through RTL simulation using Verilog testbenches.
 
-🔗 **Project page:** [ElevanceSkills](https://www.elevanceskills.com/projects/ai-based-traffic-signal-controller-using-vlsi)
-🔗 **Repository:** _To be added once the source is uploaded._
+🔗 [Project page](https://www.elevanceskills.com/projects/ai-based-traffic-signal-controller-using-vlsi) · Repository: _to be added once the source is uploaded._
 
 ---
 
-## 🎓 Education
+## 🎓 Education & Entrance Examinations
 
 **National Institute of Technology Durgapur** — B.Tech, Electronics & Communication Engineering (2022–2026)
 
 - CGPA: **8.41 / 10**
-- GATE 2026 (ECE): **Score 625 · Percentile 98.35 · AIR 1577**
+- Class XII (CBSE, 2022): 94.8% · Class X (CBSE, 2020): 95.6%
+- GATE 2026 (ECE): **Score 625 · Percentile 98.35 · AIR 1577** — [Scorecard](https://tinyurl.com/ymby8cd7)
 - PGEE 2026: **Rank 13**
+- JEE Main 2022: **Percentile 98.38 · Rank 14,792** — [Scorecard](https://tinyurl.com/ttasew7p)
+- JEE Advanced 2022: **Rank 20,524**
+- WBJEE 2022: **Rank 1,494**
 
 **Relevant coursework:** Digital Electronics, Digital System Design, Computer Architecture, Microprocessors & Microcontrollers, VLSI Design Fundamentals, Analog IC Design, CMOS Fundamentals
 
-## 🏢 Internships & Training
+*Academic marksheets and degree certificate are available on request.*
 
-- **NIELIT Noida:** VLSI Design Flow (RTL to GDS-II) · Apr–May 2026
-- **C-DOT (Govt. of India), Delhi:** FPGA-based TDC for Single-Photon OTDR · Jun–Jul 2025
-- **Maven Silicon:** APB–AHB bridge in Verilog · May–Jun 2024
-- **NIELIT Calicut:** VLSI for Beginners · Dec 2023; MATLAB & Simulink · Jan 2024
-- **Udemy:** CMOS Digital VLSI for Beginners · Oct 2023
-- **IIT Guwahati & TIDF:** AI & ML Training Program · Jun 2023
+---
+
+## 🏢 Internships, Training & Certificates
+
+| Programme | Provider | When | Certificate |
+|---|---|---|---|
+| Internship on VLSI Design Flow (RTL to GDS-II) | NIELIT Noida | Apr–May 2026 | [View](https://tinyurl.com/y9cees3p) |
+| Internship (Time-to-Digital Converter for Single-Photon OTDR) | C-DOT (Govt. of India), Delhi | Jun–Jul 2025 | [View](https://tinyurl.com/2e7fvfdt) |
+| Internship (APB–AHB Bridge) | Maven Silicon | May–Jun 2024 | [View](https://tinyurl.com/d7au9n2n) |
+| MATLAB & Simulink | NIELIT Calicut | Jan 2024 | [View](https://tinyurl.com/4ssvxncp) |
+| VLSI for Beginners | NIELIT Calicut | Dec 2023 | [View](https://tinyurl.com/56d6yfck) |
+| CMOS Digital VLSI for Beginners | Udemy | Oct 2023 | [View](https://tinyurl.com/bdfsy3v3) |
+| AI & ML Training Program | IIT Guwahati & TIDF | Jun 2023 | [View](https://tinyurl.com/3vsd2nx4) |
+| Web Development Workshop | Team Aavishkar, NIT Durgapur | Mar 2023 | [View](https://tinyurl.com/48msrkjs) |
+
+---
 
 ## 🔬 What I'm Working Towards
 
@@ -146,5 +154,6 @@ These are learning goals, not a claim of equal proficiency in every area.
 - **GitHub:** [SMajumder2005](https://github.com/SMajumder2005)
 - **LinkedIn:** [Souhardya Majumder](https://www.linkedin.com/in/souhardya-majumder-431231251/)
 - **Email:** souhardya2005aps@gmail.com
+- **Phone:** +91 91631 50238
 
 I welcome opportunities to learn and contribute to digital hardware design, verification and semiconductor engineering.
