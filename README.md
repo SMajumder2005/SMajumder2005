@@ -44,7 +44,7 @@ I'm looking for entry-level opportunities in **Digital VLSI, RTL Design, Design 
 | 2 | APB–AHB Bridge using Verilog | Maven Silicon Internship · May–Jun 2024 | [PDF](https://tinyurl.com/4rjvfd3u) | _To be added_ |
 | 3 | Drone Routing Optimization for IoT Networks | B.Tech Final Year Project · Aug 2025–Apr 2026 | [PDF](https://tinyurl.com/2zn3wuva) | _To be added_ |
 | 4 | RISC-V Processor in Verilog | Online self-paced course | [PDF](https://tinyurl.com/mr7kvnta) | [RISC-V-Verilog](https://github.com/SMajumder2005/RISC-V-Verilog) |
-| 5 | AI-inspired Traffic Signal Controller (Verilog HDL & FSM) | ElevanceSkills online project | [Traffic Signal Controller](https://github.com/SMajumder2005/Smart-Traffic-Controller) |
+| 5 | AI-inspired Traffic Signal Controller (Verilog HDL & FSM) | ElevanceSkills online project | _To be added_ | [Traffic Signal Controller](https://github.com/SMajumder2005/Smart-Traffic-Controller) |
 
 ### 1. FPGA-Based Time-to-Digital Converter for Single-Photon OTDR
 **C-DOT (Govt. of India) Internship, Delhi | May–July 2025** · FPGA Design · RTL Development · Digital Measurement
