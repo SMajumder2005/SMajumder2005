@@ -24,7 +24,7 @@ I'm looking for entry-level opportunities in **Digital VLSI, RTL Design, Design 
 | Area | Skills & Tools |
 |---|---|
 | HDL | Verilog, SystemVerilog |
-| Programming | Python, C, C++, TCL |
+| Programming | Python, C, Embedded C, C++, TCL |
 | Digital Design | RTL design, FSMs, datapath and control logic |
 | Verification | RTL simulation, Verilog testbenches, functional verification, hardware debugging |
 | Protocols | AMBA APB / AHB |
