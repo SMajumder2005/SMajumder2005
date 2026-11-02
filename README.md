@@ -101,7 +101,8 @@ A modular RISC-V processor core in Verilog covering fetch, decode, execute and w
 
 Designed an AI-inspired traffic signal controller in Verilog HDL using Finite State Machines, with state-transition and signal-timing logic verified through RTL simulation using Verilog testbenches.
 
-🔗 [Project page](https://www.elevanceskills.com/projects/ai-based-traffic-signal-controller-using-vlsi) · Repository: _to be added once the source is uploaded._
+🔗 [Repository: Traffic Signal Controller] (https://github.com/SMajumder2005/Smart-Traffic-Controller) · [Project completion certficate (PDF)](https://www.elevanceskills.com/certificates/6ade4bd06853d8886ca19186)
+
 
 ---
 
